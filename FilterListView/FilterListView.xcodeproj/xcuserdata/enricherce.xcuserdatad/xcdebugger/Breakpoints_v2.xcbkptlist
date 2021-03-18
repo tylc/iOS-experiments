@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2F16193-24AD-44EE-85DF-0ACD14095DBD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04CB1D0A-EC41-49E2-9942-5EA6CE25A0D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilterListView/MessagesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "order()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C105C38-D916-4843-B9E7-8AA117EA4EFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FilterListView/MessagesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "order()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C105C38-D916-4843-B9E7-8AA117EA4EFB - 6a00bafc31f927ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FilterListView.MessagesViewModel.order() -&gt; Swift.Array&lt;FilterListView.MessagesModel&gt;"
+                  moduleName = "FilterListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/FilterListView/FilterListView/MessagesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "8C105C38-D916-4843-B9E7-8AA117EA4EFB - d6903a15580a7886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FilterListView.MessagesModel, FilterListView.MessagesModel) -&gt; Swift.Bool in FilterListView.MessagesViewModel.order() -&gt; Swift.Array&lt;FilterListView.MessagesModel&gt;"
+                  moduleName = "FilterListView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/FilterListView/FilterListView/MessagesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
