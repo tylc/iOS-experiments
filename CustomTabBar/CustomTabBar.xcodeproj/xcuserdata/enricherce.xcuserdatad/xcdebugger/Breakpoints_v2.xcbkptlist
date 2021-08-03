@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "07C3D5F6-6C68-462D-AA7E-1663A497FBE8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "583C03D7-6D8A-43A2-B7A1-55D6F84D1B9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomTabBar/DestinationExample.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D369D20C-164C-4422-B688-0D329CB05EA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomTabBar/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomTabBar/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "567">
+               </Location>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1368">
+               </Location>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "2169">
+               </Location>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "2970">
+               </Location>
+               <Location
+                  uuid = "01A9DB01-F18A-4B8E-A3FD-7899AA05170B - f9de6b3e1da0e85d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI._ConditionalContent&lt;CustomTabBar.DestinationExample, CustomTabBar.DestinationExample&gt;&gt;, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.GeometryReader&lt;&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0&gt; in CustomTabBar.ContentView.body.getter : some"
+                  moduleName = "CustomTabBar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enricherce/Documents/Estilcolor/CustomTabBar/CustomTabBar/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "3771">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
