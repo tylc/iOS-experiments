@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C1A85DA2BF87AC85F31112 /* Pods_LazyPaginationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD54AF59C85373C0865DE7FD /* Pods_LazyPaginationTests.framework */; };
+		782C144E10805D6DCF61FC8D /* Pods_LazyPagination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B369B79C08CFE0BDAB64422 /* Pods_LazyPagination.framework */; };
+		A0925A6B43792D284E6478EE /* Pods_LazyPagination_LazyPaginationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1136C844110AAF72FB2E4 /* Pods_LazyPagination_LazyPaginationUITests.framework */; };
+		C01D5796282E52D500D8EA47 /* LazyPaginationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D5795282E52D500D8EA47 /* LazyPaginationApp.swift */; };
+		C01D5798282E52D500D8EA47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D5797282E52D500D8EA47 /* ContentView.swift */; };
+		C01D579A282E52D800D8EA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D5799282E52D800D8EA47 /* Assets.xcassets */; };
+		C01D579D282E52D800D8EA47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D579C282E52D800D8EA47 /* Preview Assets.xcassets */; };
+		C01D57A7282E52D800D8EA47 /* LazyPaginationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57A6282E52D800D8EA47 /* LazyPaginationTests.swift */; };
+		C01D57B1282E52D800D8EA47 /* LazyPaginationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57B0282E52D800D8EA47 /* LazyPaginationUITests.swift */; };
+		C01D57B3282E52D800D8EA47 /* LazyPaginationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57B2282E52D800D8EA47 /* LazyPaginationUITestsLaunchTests.swift */; };
+		C01D57C0282E531400D8EA47 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57BF282E531400D8EA47 /* UsersModel.swift */; };
+		C01D57C2282E533500D8EA47 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57C1282E533500D8EA47 /* CellView.swift */; };
+		C01D57C5282E5F9300D8EA47 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D57C4282E5F9300D8EA47 /* UsersViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01D57A3282E52D800D8EA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01D578A282E52D500D8EA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01D5791282E52D500D8EA47;
+			remoteInfo = LazyPagination;
+		};
+		C01D57AD282E52D800D8EA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01D578A282E52D500D8EA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01D5791282E52D500D8EA47;
+			remoteInfo = LazyPagination;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C4DBDD6C7AF1390367C78C7 /* Pods-LazyPagination-LazyPaginationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPagination-LazyPaginationUITests.debug.xcconfig"; path = "Target Support Files/Pods-LazyPagination-LazyPaginationUITests/Pods-LazyPagination-LazyPaginationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B369B79C08CFE0BDAB64422 /* Pods_LazyPagination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazyPagination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4641F5AC7FCB0A67B49A2047 /* Pods-LazyPagination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPagination.debug.xcconfig"; path = "Target Support Files/Pods-LazyPagination/Pods-LazyPagination.debug.xcconfig"; sourceTree = "<group>"; };
+		49505FA451B17D40F50BB3B4 /* Pods-LazyPaginationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPaginationTests.debug.xcconfig"; path = "Target Support Files/Pods-LazyPaginationTests/Pods-LazyPaginationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8228232043BFD97B4789A9E1 /* Pods-LazyPagination-LazyPaginationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPagination-LazyPaginationUITests.release.xcconfig"; path = "Target Support Files/Pods-LazyPagination-LazyPaginationUITests/Pods-LazyPagination-LazyPaginationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A70EECC8E2307A8CD9F4D40F /* Pods-LazyPagination.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPagination.release.xcconfig"; path = "Target Support Files/Pods-LazyPagination/Pods-LazyPagination.release.xcconfig"; sourceTree = "<group>"; };
+		BD54AF59C85373C0865DE7FD /* Pods_LazyPaginationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazyPaginationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D5792282E52D500D8EA47 /* LazyPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D5795282E52D500D8EA47 /* LazyPaginationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyPaginationApp.swift; sourceTree = "<group>"; };
+		C01D5797282E52D500D8EA47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C01D5799282E52D800D8EA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01D579C282E52D800D8EA47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C01D57A2282E52D800D8EA47 /* LazyPaginationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyPaginationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D57A6282E52D800D8EA47 /* LazyPaginationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyPaginationTests.swift; sourceTree = "<group>"; };
+		C01D57AC282E52D800D8EA47 /* LazyPaginationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyPaginationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01D57B0282E52D800D8EA47 /* LazyPaginationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyPaginationUITests.swift; sourceTree = "<group>"; };
+		C01D57B2282E52D800D8EA47 /* LazyPaginationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyPaginationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C01D57BF282E531400D8EA47 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		C01D57C1282E533500D8EA47 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		C01D57C4282E5F9300D8EA47 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		D36ED6F908A0D73194DB3E90 /* Pods-LazyPaginationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LazyPaginationTests.release.xcconfig"; path = "Target Support Files/Pods-LazyPaginationTests/Pods-LazyPaginationTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBB1136C844110AAF72FB2E4 /* Pods_LazyPagination_LazyPaginationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LazyPagination_LazyPaginationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01D578F282E52D500D8EA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782C144E10805D6DCF61FC8D /* Pods_LazyPagination.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D579F282E52D800D8EA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C1A85DA2BF87AC85F31112 /* Pods_LazyPaginationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D57A9282E52D800D8EA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0925A6B43792D284E6478EE /* Pods_LazyPagination_LazyPaginationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01D5789282E52D500D8EA47 = {
+			isa = PBXGroup;
+			children = (
+				C01D5794282E52D500D8EA47 /* LazyPagination */,
+				C01D57A5282E52D800D8EA47 /* LazyPaginationTests */,
+				C01D57AF282E52D800D8EA47 /* LazyPaginationUITests */,
+				C01D5793282E52D500D8EA47 /* Products */,
+				F38D46F10D0BE15BF4AA3198 /* Pods */,
+				C90375F57BD7F51E779232C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C01D5793282E52D500D8EA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01D5792282E52D500D8EA47 /* LazyPagination.app */,
+				C01D57A2282E52D800D8EA47 /* LazyPaginationTests.xctest */,
+				C01D57AC282E52D800D8EA47 /* LazyPaginationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01D5794282E52D500D8EA47 /* LazyPagination */ = {
+			isa = PBXGroup;
+			children = (
+				C01D5795282E52D500D8EA47 /* LazyPaginationApp.swift */,
+				C01D57C3282E533C00D8EA47 /* View */,
+				C01D5799282E52D800D8EA47 /* Assets.xcassets */,
+				C01D579B282E52D800D8EA47 /* Preview Content */,
+				C01D57BF282E531400D8EA47 /* UsersModel.swift */,
+				C01D57C4282E5F9300D8EA47 /* UsersViewModel.swift */,
+			);
+			path = LazyPagination;
+			sourceTree = "<group>";
+		};
+		C01D579B282E52D800D8EA47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C01D579C282E52D800D8EA47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C01D57A5282E52D800D8EA47 /* LazyPaginationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01D57A6282E52D800D8EA47 /* LazyPaginationTests.swift */,
+			);
+			path = LazyPaginationTests;
+			sourceTree = "<group>";
+		};
+		C01D57AF282E52D800D8EA47 /* LazyPaginationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C01D57B0282E52D800D8EA47 /* LazyPaginationUITests.swift */,
+				C01D57B2282E52D800D8EA47 /* LazyPaginationUITestsLaunchTests.swift */,
+			);
+			path = LazyPaginationUITests;
+			sourceTree = "<group>";
+		};
+		C01D57C3282E533C00D8EA47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C01D5797282E52D500D8EA47 /* ContentView.swift */,
+				C01D57C1282E533500D8EA47 /* CellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C90375F57BD7F51E779232C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B369B79C08CFE0BDAB64422 /* Pods_LazyPagination.framework */,
+				EBB1136C844110AAF72FB2E4 /* Pods_LazyPagination_LazyPaginationUITests.framework */,
+				BD54AF59C85373C0865DE7FD /* Pods_LazyPaginationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38D46F10D0BE15BF4AA3198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4641F5AC7FCB0A67B49A2047 /* Pods-LazyPagination.debug.xcconfig */,
+				A70EECC8E2307A8CD9F4D40F /* Pods-LazyPagination.release.xcconfig */,
+				2C4DBDD6C7AF1390367C78C7 /* Pods-LazyPagination-LazyPaginationUITests.debug.xcconfig */,
+				8228232043BFD97B4789A9E1 /* Pods-LazyPagination-LazyPaginationUITests.release.xcconfig */,
+				49505FA451B17D40F50BB3B4 /* Pods-LazyPaginationTests.debug.xcconfig */,
+				D36ED6F908A0D73194DB3E90 /* Pods-LazyPaginationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01D5791282E52D500D8EA47 /* LazyPagination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01D57B6282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPagination" */;
+			buildPhases = (
+				A3842C0319864FCE115A3DFC /* [CP] Check Pods Manifest.lock */,
+				C01D578E282E52D500D8EA47 /* Sources */,
+				C01D578F282E52D500D8EA47 /* Frameworks */,
+				C01D5790282E52D500D8EA47 /* Resources */,
+				BB80864189D7BF46E8CB45B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyPagination;
+			productName = LazyPagination;
+			productReference = C01D5792282E52D500D8EA47 /* LazyPagination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01D57A1282E52D800D8EA47 /* LazyPaginationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01D57B9282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPaginationTests" */;
+			buildPhases = (
+				895221CEFE3CE0B9F977FC25 /* [CP] Check Pods Manifest.lock */,
+				C01D579E282E52D800D8EA47 /* Sources */,
+				C01D579F282E52D800D8EA47 /* Frameworks */,
+				C01D57A0282E52D800D8EA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01D57A4282E52D800D8EA47 /* PBXTargetDependency */,
+			);
+			name = LazyPaginationTests;
+			productName = LazyPaginationTests;
+			productReference = C01D57A2282E52D800D8EA47 /* LazyPaginationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C01D57AB282E52D800D8EA47 /* LazyPaginationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01D57BC282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPaginationUITests" */;
+			buildPhases = (
+				3045A4B3D56639B800DC53FD /* [CP] Check Pods Manifest.lock */,
+				C01D57A8282E52D800D8EA47 /* Sources */,
+				C01D57A9282E52D800D8EA47 /* Frameworks */,
+				C01D57AA282E52D800D8EA47 /* Resources */,
+				823D4116D7488E87FA02D6F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01D57AE282E52D800D8EA47 /* PBXTargetDependency */,
+			);
+			name = LazyPaginationUITests;
+			productName = LazyPaginationUITests;
+			productReference = C01D57AC282E52D800D8EA47 /* LazyPaginationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01D578A282E52D500D8EA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C01D5791282E52D500D8EA47 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C01D57A1282E52D800D8EA47 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C01D5791282E52D500D8EA47;
+					};
+					C01D57AB282E52D800D8EA47 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C01D5791282E52D500D8EA47;
+					};
+				};
+			};
+			buildConfigurationList = C01D578D282E52D500D8EA47 /* Build configuration list for PBXProject "LazyPagination" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01D5789282E52D500D8EA47;
+			productRefGroup = C01D5793282E52D500D8EA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01D5791282E52D500D8EA47 /* LazyPagination */,
+				C01D57A1282E52D800D8EA47 /* LazyPaginationTests */,
+				C01D57AB282E52D800D8EA47 /* LazyPaginationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01D5790282E52D500D8EA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D579D282E52D800D8EA47 /* Preview Assets.xcassets in Resources */,
+				C01D579A282E52D800D8EA47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D57A0282E52D800D8EA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D57AA282E52D800D8EA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3045A4B3D56639B800DC53FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LazyPagination-LazyPaginationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823D4116D7488E87FA02D6F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazyPagination-LazyPaginationUITests/Pods-LazyPagination-LazyPaginationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazyPagination-LazyPaginationUITests/Pods-LazyPagination-LazyPaginationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LazyPagination-LazyPaginationUITests/Pods-LazyPagination-LazyPaginationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895221CEFE3CE0B9F977FC25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LazyPaginationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3842C0319864FCE115A3DFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LazyPagination-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB80864189D7BF46E8CB45B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazyPagination/Pods-LazyPagination-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LazyPagination/Pods-LazyPagination-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LazyPagination/Pods-LazyPagination-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01D578E282E52D500D8EA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D57C2282E533500D8EA47 /* CellView.swift in Sources */,
+				C01D5798282E52D500D8EA47 /* ContentView.swift in Sources */,
+				C01D5796282E52D500D8EA47 /* LazyPaginationApp.swift in Sources */,
+				C01D57C0282E531400D8EA47 /* UsersModel.swift in Sources */,
+				C01D57C5282E5F9300D8EA47 /* UsersViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D579E282E52D800D8EA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D57A7282E52D800D8EA47 /* LazyPaginationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D57A8282E52D800D8EA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01D57B3282E52D800D8EA47 /* LazyPaginationUITestsLaunchTests.swift in Sources */,
+				C01D57B1282E52D800D8EA47 /* LazyPaginationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01D57A4282E52D800D8EA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01D5791282E52D500D8EA47 /* LazyPagination */;
+			targetProxy = C01D57A3282E52D800D8EA47 /* PBXContainerItemProxy */;
+		};
+		C01D57AE282E52D800D8EA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01D5791282E52D500D8EA47 /* LazyPagination */;
+			targetProxy = C01D57AD282E52D800D8EA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C01D57B4282E52D800D8EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01D57B5282E52D800D8EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01D57B7282E52D800D8EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4641F5AC7FCB0A67B49A2047 /* Pods-LazyPagination.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyPagination/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPagination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01D57B8282E52D800D8EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70EECC8E2307A8CD9F4D40F /* Pods-LazyPagination.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LazyPagination/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPagination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01D57BA282E52D800D8EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49505FA451B17D40F50BB3B4 /* Pods-LazyPaginationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPaginationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyPagination.app/LazyPagination";
+			};
+			name = Debug;
+		};
+		C01D57BB282E52D800D8EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36ED6F908A0D73194DB3E90 /* Pods-LazyPaginationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPaginationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyPagination.app/LazyPagination";
+			};
+			name = Release;
+		};
+		C01D57BD282E52D800D8EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4DBDD6C7AF1390367C78C7 /* Pods-LazyPagination-LazyPaginationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPaginationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazyPagination;
+			};
+			name = Debug;
+		};
+		C01D57BE282E52D800D8EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8228232043BFD97B4789A9E1 /* Pods-LazyPagination-LazyPaginationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZWU6T2FUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Enric.LazyPaginationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazyPagination;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01D578D282E52D500D8EA47 /* Build configuration list for PBXProject "LazyPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D57B4282E52D800D8EA47 /* Debug */,
+				C01D57B5282E52D800D8EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01D57B6282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D57B7282E52D800D8EA47 /* Debug */,
+				C01D57B8282E52D800D8EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01D57B9282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPaginationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D57BA282E52D800D8EA47 /* Debug */,
+				C01D57BB282E52D800D8EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01D57BC282E52D800D8EA47 /* Build configuration list for PBXNativeTarget "LazyPaginationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01D57BD282E52D800D8EA47 /* Debug */,
+				C01D57BE282E52D800D8EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01D578A282E52D500D8EA47 /* Project object */;
+}
